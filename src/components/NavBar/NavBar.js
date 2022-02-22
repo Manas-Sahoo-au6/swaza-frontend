@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from "../../styles/NavBar.module.css";
+import classes from "./NavBar.module.css";
 import Logo from "../../assets/logo.svg";
 import HumbergerIcon from "../../assets/humbergerIcon.svg"
 function NavBar() {
@@ -10,7 +10,6 @@ function NavBar() {
         </div>
         <div>
           <img src={HumbergerIcon} alt="HumbergerIcon" />
-
         </div>
     </div>
   )

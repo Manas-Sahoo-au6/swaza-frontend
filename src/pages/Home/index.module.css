@@ -1,0 +1,69 @@
+.Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 1vw;
+}
+
+.Banner {
+  margin-top: 15.86vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.BannerHeading {
+  width: 40.33vw;
+  height: 7.5vh;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: -1px;
+  color: #161342;
+}
+.BannerDescription {
+  width: 53vw;
+  height: 9.5vh;
+  margin-top: 4vh;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #4d4354;
+}
+
+.HeaderContainer {
+  width: 100%;
+  background: linear-gradient(
+    360deg,
+    #ffffff -4.55%,
+    rgba(242, 250, 255, 0.7) 58.54%
+  );
+  border-radius: 12px;
+  position: relative;
+}
+
+.HeaderContainer > * {
+  z-index: 10;
+  position: relative;
+}
+
+.HeaderContainer::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+  z-index: 0;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  background: url("../../assets/Frame.svg");
+}
