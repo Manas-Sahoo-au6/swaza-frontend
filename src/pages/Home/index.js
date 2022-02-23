@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "../../components/Hero/Hero";
 import NavBar from "../../components/NavBar/NavBar";
+import Usage from "../../components/Usage/Usage";
 import Vision from "../../components/Vision/Vision";
 import classes from "./index.module.css";
 function Home() {
@@ -18,6 +19,7 @@ function Home() {
         </div>
       </div>
       <Vision />
+      <Usage />
     </div>
   );
 }
