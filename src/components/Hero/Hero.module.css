@@ -12,6 +12,7 @@
   align-items: flex-start;
   row-gap: 2vw;
   text-align: left;
+  margin-left: 7.5vw;
 }
 .RightHeroSection {
   height: 65.95vw;
@@ -24,7 +25,20 @@
   width: 100%;
   height: 100%;
 }
-.GetStartedButton{
-    width: 15.80vw;
-    height: 6.617vw;
+.GetStartedButton {
+  width: 15.8vw;
+  height: 6.617vw;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 0.88vw;
+  background: linear-gradient(94.21deg, #252424 4.48%, #424242 87.94%);
 }
