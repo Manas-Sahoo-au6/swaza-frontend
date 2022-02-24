@@ -45,11 +45,12 @@
 }
 /* manually setting margin to accomodate the negative margin being set to middle item in the slide */
 .carousel__slider-tray-wrapper.carousel__slider-tray-wrap--horizontal{
-  margin-top: 2vh;
+  margin-top: 3vh;
 }
 /* setting margin to middle item in the current slide */
 .magnify.imagex.carousel{
-  margin-top: -2vh;
+  transition: 1000ms;
+  margin-top: -3vh;
   width: 14.7vw;
   height: 14.7vw;
 }

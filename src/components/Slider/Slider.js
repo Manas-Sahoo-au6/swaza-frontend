@@ -28,9 +28,8 @@ const SliderComponent = ({ comp }) => {
 
   const [currentSlide, setCurrentSlideNumber] = useState(0);
   useEffect(() => {
-    console.log(currentSlide);
-    // a.classList.remove("magnify", "imagex", "carousel")
-    if (prevSlides) prevSlides.classList.remove("magnify", "imagex", "carousel");
+    if (prevSlides)
+      prevSlides.classList.remove("magnify", "imagex", "carousel");
     const d = document.querySelector(
       `.carousel__slide--visible:nth-child(n+${currentSlide + 3}) img`
     );
