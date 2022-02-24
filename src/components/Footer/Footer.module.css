@@ -1,0 +1,91 @@
+.MainContainer {
+  margin-top: 24.8vh;
+  background: #161342;
+  display: flex;
+  justify-content: center;
+  height: 42vh;
+  width: 100%;
+}
+
+.Info {
+  height: 42vh;
+  display: flex;
+  flex-direction: column;
+  width: 85.5vw;
+}
+
+.ContactContainer {
+  margin-top: 8.3vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8.3vh;
+  width: 100%;
+}
+
+.Logo {
+  align-items: center;
+  width: 11.56vw;
+  height: 4.3vh;
+}
+
+.ContactUs {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.17vw;
+  line-height: 1.9vw;
+  text-align: left;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+.Email {
+  margin-top: 0.5vh;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.17vw;
+  line-height: 1.9vw;
+  text-align: left;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+.Separator {
+  margin-top: 7.3vh;
+  width: 100%;
+  mix-blend-mode: normal;
+  opacity: 0.3;
+  /* Colors / White */
+
+  border: 1px solid #ffffff;
+}
+
+.Social {
+  margin-top: 6.4vh;
+  width: 100%;
+  height: 4.5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SocialIcon {
+  margin-right: 2.1vw;
+}
+
+.Icons {
+  display: flex;
+}
+
+.Copyright {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.17vw;
+  line-height: 1.9vw;
+  text-align: right;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}

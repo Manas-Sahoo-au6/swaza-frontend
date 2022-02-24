@@ -1,6 +1,8 @@
 import React from "react";
+import Footer from "../../components/Footer/Footer";
 import Hero from "../../components/Hero/Hero";
 import NavBar from "../../components/NavBar/NavBar";
+import Team from "../../components/Team/Team";
 import Usage from "../../components/Usage/Usage";
 import Vision from "../../components/Vision/Vision";
 import classes from "./index.module.css";
@@ -20,6 +22,8 @@ function Home() {
       </div>
       <Vision />
       <Usage />
+      <Team />
+      <Footer/>
     </div>
   );
 }

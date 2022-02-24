@@ -15,23 +15,23 @@
 .BannerHeading {
   width: 40.33vw;
   height: 7.5vh;
-  font-family: Manrope;
+  font-family: Matahari800;
   font-style: normal;
   font-weight: 800;
-  font-size: 40px;
-  line-height: 50px;
-  letter-spacing: -1px;
+  font-size: 2.9vw;
+  line-height: 3.6vw;
+  letter-spacing: -0.07vw;
   color: #161342;
 }
 .BannerDescription {
   width: 53vw;
   height: 9.5vh;
-  margin-top: 4vh;
+  margin-top: 3.5vh;
   font-family: Manrope;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 32px;
+  font-size: 1.1vw;
+  line-height: 2.3vw;
   display: flex;
   align-items: center;
   text-align: center;

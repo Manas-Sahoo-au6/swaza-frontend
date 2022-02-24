@@ -36,7 +36,6 @@
   margin-left: 9.6vw;
 }
 
-
 .Solution {
   width: 78vw;
   height: 60vh;
@@ -96,20 +95,20 @@
 }
 
 .VisionTextHeader {
-  font-family: Matahari;
+  font-family: Matahari800;
   font-style: normal;
   font-weight: 800;
-  font-size: 40px;
-  line-height: 50px;
+  font-size: 2.9vw;
+  line-height: 3.6vw;
   letter-spacing: -1px;
   color: #161342;
 }
 
 .SolutionHeader {
-  font-family: Matahari;
+  font-family: Matahari800;
   font-style: normal;
   font-weight: 800;
-  font-size: 40px;
+  font-size: 2.9vw;
   line-height: 7.5vh;
   letter-spacing: -1px;
   color: #161342;
@@ -117,21 +116,22 @@
 
 .VisionTextDescription {
   margin-top: 1.17vh;
+  width: 32vw;
   font-family: Manrope;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 32px;
+  font-size: 1.17vw;
+  line-height: 2.3vw;
   color: #4d4354;
 }
 
 .SolutionDescription {
   margin-top: 1.17vh;
-  width: 31vw;
+  width: 32.5vw;
   font-family: Manrope;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 32px;
-  color: #4D4354;
+  font-size: 1.17vw;
+  line-height: 2.3vw;
+  color: #4d4354;
 }

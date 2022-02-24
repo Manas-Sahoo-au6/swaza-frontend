@@ -1,0 +1,73 @@
+.MainContainer {
+  width: 88vw;
+  height: 90.9vh;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.CardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 14.8vw;
+  height: 40vh;
+}
+
+.CardName {
+  margin-top: 0.9vh;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.46vw;
+  line-height: 2.3vw;
+  color: #201429;
+}
+
+.CardRole {
+  margin-top: 0.9vh;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1vw;
+  line-height: 1.75vw;
+  color: #4d4354;
+}
+
+.CardImage {
+  width: 11.4vw;
+  height: 11.4vw;
+  border-radius: 100%;
+}
+
+.Carousel {
+  margin-top: 12vh;
+  width: 100%;
+  height: 40vh;
+}
+
+.IntroductionHeader {
+  margin-top: 24.9vh;
+  font-family: Matahari800;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.9vw;
+  line-height: 3.6vw;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #161342;
+}
+
+.IntroductionDescription {
+  margin-top: 3.6vh;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.17vw;
+  line-height: 2.3vw;
+  text-align: center;
+  color: #4d4354;
+  width: 53.2vw;
+}

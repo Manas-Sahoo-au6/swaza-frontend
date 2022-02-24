@@ -2,7 +2,7 @@
   text-align: center;
   font-family: Poppins;
 }
-.Heading{
+.Heading {
   /* font-family: Matahari; */
   font-style: normal;
   font-weight: 700;
@@ -10,10 +10,10 @@
   line-height: 4.7vw;
   color: #161342;
 }
-.BlueHeading{
-  color: #1DACF4;
+.BlueHeading {
+  color: #1dacf4;
 }
-.Description{
+.Description {
   /* font-family: Manrope; */
   font-style: normal;
   font-weight: 500;
@@ -23,16 +23,33 @@
   display: flex;
   align-items: center;
   /* Style-1/Color-2 (Body) */
-  color: #4D4354;
+  color: #4d4354;
 }
-.btn-black{
- display: flex;
- justify-content: center;
- align-items: center;
- text-align: center;
- color: #ffffff;
- background-color: #000000;
- border-radius: 0.88vw;
- background: linear-gradient(94.21deg, #252424 4.48%, #424242 87.94%);
+.btn-black {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 0.88vw;
+  background: linear-gradient(94.21deg, #252424 4.48%, #424242 87.94%);
 }
-
+@font-face {
+  font-family: Matahari800;
+  src: url("./assets/Mathari/Matahari-800ExtraBold.otf") format("opentype");
+}
+@font-face {
+  font-family: Matahari700;
+  src: url("./assets/Mathari/Matahari-700Bold.otf") format("opentype");
+}
+/* manually setting margin to accomodate the negative margin being set to middle item in the slide */
+.carousel__slider-tray-wrapper.carousel__slider-tray-wrap--horizontal{
+  margin-top: 2vh;
+}
+/* setting margin to middle item in the current slide */
+.magnify.imagex.carousel{
+  margin-top: -2vh;
+  width: 14.7vw;
+  height: 14.7vw;
+}

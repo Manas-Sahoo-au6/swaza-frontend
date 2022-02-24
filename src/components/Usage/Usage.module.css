@@ -27,11 +27,11 @@
 .Header {
   margin-top: 16.5vh;
   width: 66.3vw;
-  font-family: Matahari;
+  font-family: Matahari800;
   font-style: normal;
   font-weight: 800;
-  font-size: 40px;
-  line-height: 50px;
+  font-size: 2.9vw;
+  line-height: 3.6vw;
   text-align: center;
   letter-spacing: -1px;
   color: #ffffff;
@@ -48,12 +48,12 @@
 .UsageTextHeader {
   margin-right: 3.5vw;
   width: 27vw;
-  font-family: Matahari;
+  font-family: Matahari700;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 26px;
-  letter-spacing: 2px;
+  font-size: 1.4vw;
+  line-height: 1.9vw;
+  letter-spacing: 0.14vw;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -64,7 +64,7 @@
   font-family: Manrope;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 32px;
+  font-size: 1.17vw;
+  line-height: 2.3vw;
   color: #ffffff;
 }
